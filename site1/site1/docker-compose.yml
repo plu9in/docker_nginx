@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+        static-site1:
+               image: ealen/echo-server:latest
+               container_name: 'echo_server'
+               networks:
+                       - backend-network
+networks:
+        backend-network:
+                external: true
+
