@@ -20,8 +20,8 @@ This is a really basic scenario but it gets straight to the point.
 
 ## prerequisites
 
-docker should be installed.
-to test it, curl should be installed.
+Docker should be installed.
+To test it, curl should be installed.
 
 ## [create_networks.sh](create_networks.sh)
 
